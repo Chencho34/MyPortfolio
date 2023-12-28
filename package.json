@@ -1,6 +1,7 @@
 {
   "name": "my-portfolio-v2",
   "private": true,
+  "homepage": "https://Chencho34.github.io/MyPortfolio/dist",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
