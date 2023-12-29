@@ -8,9 +8,9 @@ export default function App () {
     <>
       <Nav />
       <Routes>
-        <Route path='/' index element={ <Home />} />
-        <Route path='/about' index element={ <About />} />
-        <Route path='/projects' index element={ <Projects />} />
+        <Route path='MyPortfolio/' index element={ <Home />} />
+        <Route path='MyPortfolio/about' index element={ <About />} />
+        <Route path='MyPortfolio/projects' index element={ <Projects />} />
       </Routes>
     </>
   )

@@ -3,10 +3,7 @@ import { MdOutlineLightMode, MdOutlineNightlight } from 'react-icons/md'
 
 
 export default function ChangeTheme() {
-
-  
   const [toggleThemeIcon, setThemeIcon] = useState(true)
-
   const [themeColor, setThemeColor] = useState(() => {
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
       return 'dark'
