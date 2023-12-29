@@ -12,15 +12,15 @@ export default function Nav() {
     setItemActive(1)
   }, [])
 
-
   const [toggleMenu, setToggleMenu] = useState(false)
   const handleToggleMenu = () => setToggleMenu(!toggleMenu)
+  const handleItem = () => setToggleMenu(!toggleMenu)
 
   return (
     <>
       <nav className='h-16 w-full fixed top-0 bg-slate-100/90 dark:bg-[#242424]/90 transition-all duration-500 backdrop-blur-sm z-10'>
         <section className='w-10/12 mx-auto flex items-center h-full justify-between'>
-          <Link onClick={() => handleClick(1)} className='text-3xl font-bold text-[hsl(207,90%,54%)] tracking-widest' to='MyPortfolio/'>Checho</Link>
+          <Link onClick={ () => handleClick(1)} className='text-3xl font-bold text-[hsl(207,90%,54%)] tracking-widest' to='MyPortfolio/'>Checho</Link>
           <section className='hidden md:flex flex-row items-center gap-6'>
             <ul className='flex flex-row gap-9 text-gray-500 font-normal text-md'>
               { items.map(({icon, id, item, to}) => (
@@ -53,7 +53,7 @@ export default function Nav() {
                     onClick={() => handleClick(id)}
                     className={`hover:text-[#2196f3] ${itemActive === id ? 'text-[#2196f3]' : ''}`}
                   >
-                    <Link className='flex flex-row-reverse items-center gap-1.5'to={to}>{icon}{item}</Link>
+                    <Link  onClick={handleItem} className='flex flex-row-reverse items-center gap-1.5'to={to}>{icon}{item}</Link>
                   </li>
                 ))}
               </ul>
