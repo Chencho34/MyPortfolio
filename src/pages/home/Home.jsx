@@ -20,9 +20,6 @@ export default function Home() {
           </ul>
           <button className='bg-[#161616] dark:bg-gray-300 dark:text-[#161616] rounded-sm w-28 text-white font-semibold text-sm py-1'>Resume</button>
         </article>
-        {/* <picture className='w-1/4  h-2/6 bg-cyan-400 overflow-hidden flex items-center rounded'>
-          <img src='' alt='me' className='' />
-        </picture> */}
       </Container>
     </Wrapper>
   )
