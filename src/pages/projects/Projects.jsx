@@ -2,7 +2,7 @@ import { Cards } from '../../containers'
 
 export default function Projects () {
   return (
-    <main className='h-auto lg:h-screen w-full bg-slate-100 dark:bg-[#121212]'>
+    <main className='h-auto lg:h-screen w-full bg-light dark:bg-dark transition-colors duration-500'>
       <article className='w-[90%] h-full mx-auto lg:flex'>
         <section className='lg:w-[35%] lg:p-0 pt-28 pb-12 h-full flex items-center justify-center'>
           <p className='flex flex-col  text-6xl/tight font-bold text-[#242424] dark:text-gray-300 tracking-widest '>Welcome <span>To My</span> Projects</p>
