@@ -22,7 +22,7 @@ const skills = [
 const projects = [
   {
     id: 1,
-    title: 'Disney Plus Clone',
+    title: 'Disney Plus Clone App',
     image: 'images/disney-plus-clone.png',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed possimus tempore nihil nemo.',
     tecnologies: [
@@ -31,24 +31,24 @@ const projects = [
       { tecnologie: <SiFirebase /> },
       { tecnologie: <SiReactrouter /> },
     ],
-    github: '',
+    github: 'https://github.com/Chencho34/disney-plus-clone-app',
     demo: ''
   },
   { 
     id: 2,
-    title: 'Bikes Store Webpage',
+    title: 'KTM Web Page',
     image: 'images/ktm-clone.png',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed possimus ',
     tecnologies: [
       { tecnologie: <SiHtml5 /> },
       { tecnologie: <FaCss3 /> },
     ],
-    github: '',
+    github: 'https://github.com/Chencho34/ktm-web-page',
     demo: ''
   },
   {
     id: 3,
-    title: 'Poke api',
+    title: 'Pokedex | PokeApi',
     image: 'images/pokedex.png',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Sed possimus tempore nihil nemo.',
     tecnologies: [
@@ -56,7 +56,7 @@ const projects = [
       { tecnologie: <SiTailwindcss /> },
       { tecnologie: <SiReactrouter /> },
     ],
-    github: '',
+    github: 'https://github.com/Chencho34/pokedex-with-poke-api',
     demo: ''
   },
   {
@@ -68,7 +68,7 @@ const projects = [
       { tecnologie: <SiReact /> }, 
       {tecnologie: <FaCss3 />}
     ],
-    github: '',
+    github: 'https://github.com/Chencho34/tic-tac-toe',
     demo: ''
   },
   {
@@ -81,27 +81,26 @@ const projects = [
       { tecnologie: <SiRedux /> },
       { tecnologie: <SiStyledcomponents /> },
     ],
-    github: '',
+    github: 'https://github.com/Chencho34/tesla-clon',
     demo: ''
   },
   {
     id: 6,
-    title: 'Login page',
+    title: 'Login Form | Firebase',
     image: 'images/login-page.png',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed possimus tempore nihil nemo.',
     tecnologies: [
-      { tecnologie: <SiNodedotjs /> },
-      { tecnologie: <BiLogoPostgresql /> },
       { tecnologie: <SiReact /> },
-      { tecnologie: <SiExpress /> },
+      { tecnologie: <SiFirebase /> },
+      { tecnologie: <FaCss3 /> },
     ],
-    github: '',
+    github: 'https://github.com/Chencho34/login-form-firebase',
     demo: ''
   },
   {
     id: 7,
     title: 'Todo App',
-    image: 'images/card-form.png',
+    image: 'images/todo-app.png',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed possimus tempore nihil nemo.',
     tecnologies: [
       { tecnologie: <SiReact /> },  
@@ -116,13 +115,12 @@ const projects = [
   },
   {
     id: 8,
-    title: 'Icream Web',
-    image: 'images/card-form.png',
+    title: 'Landing Page',
+    image: 'images/landing-pg.png',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed possimus tempore nihil nemo.',
     tecnologies: [
-      { tecnologie: <SiHtml5 /> },
+      { tecnologie: <SiReact /> },  
       { tecnologie: <SiCss3 /> },
-      { tecnologie: <SiJavascript  /> },
     ],
     github: '',
     demo: ''
@@ -137,7 +135,7 @@ const projects = [
       { tecnologie: <SiSass /> },
       { tecnologie: <SiJavascript /> },
     ],
-    github: '',
+    github: 'https://github.com/Chencho34/interactive-card-form',
     demo: ''
   },
 ]
