@@ -110,7 +110,7 @@ const projects = [
       { tecnologie: <SiReactrouter /> },
       { tecnologie: <SiMui /> },
     ],
-    github: '',
+    github: 'https://github.com/Chencho34/todo-app-pern-stack',
     demo: ''
   },
   {
@@ -122,7 +122,7 @@ const projects = [
       { tecnologie: <SiReact /> },  
       { tecnologie: <SiCss3 /> },
     ],
-    github: '',
+    github: 'https://github.com/Chencho34/mechanical-website',
     demo: ''
   },
   {
