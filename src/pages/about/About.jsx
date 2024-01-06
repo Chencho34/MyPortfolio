@@ -10,7 +10,7 @@ export default function About() {
           <Fade direction='left' duration={300} big>
             <h1 className='text-6xl/tight font-bold text-[#242424] dark:text-gray-300  mb-10'>Welcome</h1>
           </Fade>
-          <section className='flex flex-col bg-cyan-600 gap-20'>
+          <section className='flex flex-col gap-20'>
             <article className='lg:flex gap-9 items-start justify-between'>
               <Fade direction='left' duration={400}>
                 <article className='w-40'>
