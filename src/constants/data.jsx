@@ -24,7 +24,7 @@ const projects = [
     id: 1,
     title: 'Disney Plus Clone App',
     image: 'images/disney-plus-clone.png',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed possimus tempore nihil nemo.',
+    description: 'It allows users to browse content with features such as authentication and multi-page. features and an immersive user experience. ',
     tecnologies: [
       { tecnologie: <SiReact /> },
       { tecnologie: <SiRedux /> },
@@ -33,12 +33,12 @@ const projects = [
     ],
     github: 'https://github.com/Chencho34/disney-plus-clone-app',
     demo: ''
-  },
+  },    
   { 
     id: 2,
     title: 'KTM Web Page',
     image: 'images/ktm-clone.png',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed possimus ',
+    description: 'Minimalist web design with semantic HTML5 and KTM-inspired BEM-CSS3 styles to showcase motorcycles in a modern way.',
     tecnologies: [
       { tecnologie: <SiHtml5 /> },
       { tecnologie: <FaCss3 /> },
@@ -50,7 +50,7 @@ const projects = [
     id: 3,
     title: 'Pokedex | PokeApi',
     image: 'images/pokedex.png',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Sed possimus tempore nihil nemo.',
+    description: 'In progress...',
     tecnologies: [
       { tecnologie: <SiReact /> },
       { tecnologie: <SiTailwindcss /> },
@@ -61,9 +61,9 @@ const projects = [
   },
   {
     id: 4,
-    title: 'tic-tac-toe',
+    title: 'Tic-Tac-Toe',
     image: 'images/tic-tac-toe.png',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed possimus tempore nihil nemo.',
+    description: 'Implementation of Tic-Tac-Toe with ReactJS, Canvas Confetti for visual effects, Local Storage for saving progress and CSS3 for stylization.',
     tecnologies: [
       { tecnologie: <SiReact /> }, 
       {tecnologie: <FaCss3 />}
@@ -75,7 +75,7 @@ const projects = [
     id: 5,
     title: 'Tesla Clone',
     image: 'images/tesla-clone.png',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    description: 'This is a Tesla Homepage clone with React animations, Styled Components, React Reveal and Redux for advanced functionality.',
     tecnologies: [
       { tecnologie: <SiReact /> },
       { tecnologie: <SiRedux /> },
@@ -88,7 +88,7 @@ const projects = [
     id: 6,
     title: 'Login Form | Firebase',
     image: 'images/login-page.png',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed possimus tempore nihil nemo.',
+    description: 'React Form: User management with Firebase, routing with React Router Dom and attractive and modular design with CSS3 (BEM).',
     tecnologies: [
       { tecnologie: <SiReact /> },
       { tecnologie: <SiFirebase /> },
@@ -101,7 +101,7 @@ const projects = [
     id: 7,
     title: 'Todo App',
     image: 'images/todo-app.png',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed possimus tempore nihil nemo.',
+    description: 'Task list with React, Node, Express, PostgreSQL with CRUD operations, using a REST API for the efficient exchange of HTTP data between client and server.',
     tecnologies: [
       { tecnologie: <SiReact /> },  
       { tecnologie: <BiLogoPostgresql /> },
@@ -117,7 +117,7 @@ const projects = [
     id: 8,
     title: 'Landing Page',
     image: 'images/landing-pg.png',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed possimus tempore nihil nemo.',
+    description: 'mechanical workshop: attractive design, outstanding services, seamless experience and compelling call to action for customers.',
     tecnologies: [
       { tecnologie: <SiReact /> },  
       { tecnologie: <SiCss3 /> },
@@ -129,7 +129,7 @@ const projects = [
     id: 9,
     title: 'Interactive Card Form',
     image: 'images/card-form.png',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed possimus tempore nihil nemo.',
+    description: 'Interactive form with attractive design, developed with HTML5, SASS and JavaScript. Includes validations and error control.',
     tecnologies: [
       { tecnologie: <SiHtml5 /> },
       { tecnologie: <SiSass /> },
