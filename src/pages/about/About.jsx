@@ -7,7 +7,7 @@ export default function About() {
     <Wrapper>
       <Container>
         <section className='flex flex-col justify-center w-full gap-8'>
-          <Fade direction='left' duration={300} big>
+          <Fade direction='left' duration={300}>
             <h1 className='text-6xl/tight font-bold text-[#242424] dark:text-gray-300  mb-10'>Welcome</h1>
           </Fade>
           <section className='flex flex-col gap-20'>
