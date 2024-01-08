@@ -18,7 +18,7 @@ export default function About() {
                   <h1 className='text-4xl font-bold text-[#242424] dark:text-gray-300 tracking-widest pb-4'>About</h1>
                 </article>
               </Fade>
-              <Fade duration={400} direction='up'>
+              <Fade duration={400} direction='down'>
                 <p className='text-sm font-medium text-primary text-balance lg:w-[500px]'>Hola! Soy Armando, un universitario de 21 años apasionado del desarrollo web autodidacta. Mi fascinación por la creación de sitios web comenzó como un hobby y ha evolucionado en una dedicación constante. El desarrollo web me ha permitido adquirir un amplio conocimiento en diferentes áreas, desde el diseño frontend hasta la implementación backend.</p>
               </Fade>
             </article>
@@ -29,7 +29,7 @@ export default function About() {
                   <h1 className='text-4xl font-bold text-[#242424] dark:text-gray-300 tracking-widest pb-4'>Skills</h1>
                 </article>
               </Fade>
-              <Fade duration={400} direction='up' delay={400}>
+              <Fade duration={400} direction='down' delay={400}>
                 <figure className='flex gap-9 flex-wrap lg:w-[500px]'>
                  {
                   skills.map(({id, img}) => (
