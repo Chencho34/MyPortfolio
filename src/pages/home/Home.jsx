@@ -1,6 +1,6 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { Container, Wrapper } from '../../components'
-import cvArmando from '/public/cv-armando.pdf'
+import cvArmando from '/cv-armando.pdf'
 
 export default function Home() {
   return (
