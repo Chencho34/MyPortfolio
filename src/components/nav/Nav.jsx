@@ -1,14 +1,12 @@
 import { Link } from 'react-router-dom'
 import { items } from '../../constants'
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { CgMenuRightAlt, CgClose } from 'react-icons/cg'
 import ChangeTheme from './changeTheme/ChangeTheme'
 
 export default function Nav() {
-  const use = useRef()
   const [itemActive, setItemActive] = useState(0)
   const handleClick = (id) => setItemActive(id)
-  console.log(use.current.value)
 
   useEffect(() => {
     setItemActive(1)
