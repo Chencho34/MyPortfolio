@@ -11,14 +11,15 @@ const skills = [
   { id: 3, img: 'svg/javascript.svg' },
   { id: 4, img: 'svg/typescript.svg' },
   { id: 5, img: 'svg/react.svg' },
-  { id: 6, img: 'svg/tailwindcss-icon.svg' },
-  { id: 7, img: 'svg/nextjs-icon.svg' },
-  { id: 8, img: 'svg/git-icon.svg' },
-  { id: 9, img: 'svg/github-icon.svg' },
-  { id: 10, img: 'svg/postgresql.svg' },
-  { id: 11, img: 'svg/java.svg' },
-  { id: 12, img: 'svg/sass.svg' },
-  { id: 13, img: 'svg/bootstrap.svg' }
+  { id: 6, img: 'svg/redux.svg' },
+  { id: 7, img: 'svg/tailwindcss-icon.svg' },
+  { id: 8, img: 'svg/nextjs-icon.svg' },
+  { id: 9, img: 'svg/git-icon.svg' },
+  { id: 10, img: 'svg/github-icon.svg' },
+  { id: 11, img: 'svg/postgresql.svg' },
+  { id: 12, img: 'svg/java.svg' },
+  { id: 13, img: 'svg/sass.svg' },
+  { id: 14, img: 'svg/bootstrap.svg' }
 ]
 
 const projects = [
