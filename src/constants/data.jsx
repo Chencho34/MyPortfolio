@@ -6,17 +6,19 @@ import { GrProjects } from 'react-icons/gr'
 // import { SiTypescript } from 'react-icons/si'
 
 const skills = [
-  { id: 1, img: 'svg/html-5.svg' },
-  { id: 2, img: 'svg/css-3_official.svg' },
+  { id: 1, img: 'svg/html5.svg' },
+  { id: 2, img: 'svg/css3.svg' },
   { id: 3, img: 'svg/javascript.svg' },
-  { id: 4, img: 'svg/react.svg' },
-  { id: 5, img: 'svg/tailwindcss-icon.svg' },
-  { id: 6, img: 'svg/nextjs-icon.svg' },
-  { id: 7, img: 'svg/git-icon.svg' },
-  { id: 8, img: 'svg/github-icon.svg' },
-  { id: 9, img: 'svg/postgresql.svg' },
-  { id: 10, img: 'svg/java.svg' },
-  { id: 11, img: 'svg/sass.svg' }
+  { id: 4, img: 'svg/typescript.svg' },
+  { id: 5, img: 'svg/react.svg' },
+  { id: 6, img: 'svg/tailwindcss-icon.svg' },
+  { id: 7, img: 'svg/nextjs-icon.svg' },
+  { id: 8, img: 'svg/git-icon.svg' },
+  { id: 9, img: 'svg/github-icon.svg' },
+  { id: 10, img: 'svg/postgresql.svg' },
+  { id: 11, img: 'svg/java.svg' },
+  { id: 12, img: 'svg/sass.svg' },
+  { id: 13, img: 'svg/bootstrap.svg' }
 ]
 
 const projects = [
