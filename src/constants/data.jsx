@@ -36,9 +36,23 @@ const projects = [
     ],
     github: 'https://github.com/Chencho34/disney-plus-clone-app',
     demo: ''
-  },    
-  { 
+  },
+  {
     id: 2,
+    title: 'E-Comerce',
+    image: 'images/shopping.png',
+    description: 'E-commerce, con diseño minimalista y atractivo, enfocada en la experiencia del usuario. Incluye gestión de productos, navegación intuitiva y funcionalidad completa de compra.',
+    tecnologies: [
+      { tecnologie: <SiReact /> },
+      { tecnologie: <SiRedux /> },
+      { tecnologie: <SiTailwindcss /> },
+      { tecnologie: <SiReactrouter /> },
+    ],
+    github: 'https://github.com/Chencho34/disney-plus-clone-app',
+    demo: 'https://cart-shopping-app.netlify.app/'
+  },
+  { 
+    id: 3,
     title: 'KTM Web Page',
     image: 'images/ktm-clone.png',
     description: 'Minimalist web design with semantic HTML5 and KTM-inspired BEM-CSS3 styles to showcase motorcycles in a modern way.',
@@ -50,7 +64,7 @@ const projects = [
     demo: ''
   },
   {
-    id: 3,
+    id: 4,
     title: 'Pokedex | PokeApi',
     image: 'images/pokedex.png',
     description: 'In progress...',
@@ -63,7 +77,7 @@ const projects = [
     demo: ''
   },
   {
-    id: 4,
+    id: 5,
     title: 'Tic-Tac-Toe',
     image: 'images/tic-tac-toe.png',
     description: 'Implementation of Tic-Tac-Toe with ReactJS, Canvas Confetti for visual effects, Local Storage for saving progress and CSS3 for stylization.',
@@ -75,7 +89,7 @@ const projects = [
     demo: ''
   },
   {
-    id: 5,
+    id: 6,
     title: 'Tesla Clone',
     image: 'images/tesla-clone.png',
     description: 'This is a Tesla Homepage clone with React animations, Styled Components, React Reveal and Redux for advanced functionality.',
@@ -88,7 +102,7 @@ const projects = [
     demo: ''
   },
   {
-    id: 6,
+    id: 7,
     title: 'Login Form | Firebase',
     image: 'images/login-page.png',
     description: 'React Form: User management with Firebase, routing with React Router Dom and attractive and modular design with CSS3 (BEM).',
@@ -101,7 +115,7 @@ const projects = [
     demo: ''
   },
   {
-    id: 7,
+    id: 8,
     title: 'Todo App',
     image: 'images/todo-app.png',
     description: 'Task list with React, Node, Express, PostgreSQL with CRUD operations, using a REST API for the efficient exchange of HTTP data between client and server.',
@@ -117,7 +131,7 @@ const projects = [
     demo: ''
   },
   {
-    id: 8,
+    id: 9,
     title: 'Landing Page',
     image: 'images/landing-pg.png',
     description: 'mechanical workshop: attractive design, outstanding services, seamless experience and compelling call to action for customers.',
@@ -129,7 +143,7 @@ const projects = [
     demo: ''
   },
   {
-    id: 9,
+    id: 10,
     title: 'Interactive Card Form',
     image: 'images/card-form.png',
     description: 'Interactive form with attractive design, developed with HTML5, SASS and JavaScript. Includes validations and error control.',
