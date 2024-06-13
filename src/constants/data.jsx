@@ -35,20 +35,20 @@ const projects = [
       { tecnologie: <SiReactrouter /> },
     ],
     github: 'https://github.com/Chencho34/disney-plus-clone-app',
-    demo: ''
+    demo: '#'
   },
   {
     id: 2,
     title: 'E-Comerce',
     image: 'images/shopping.png',
-    description: 'E-commerce, con diseño minimalista y atractivo, enfocada en la experiencia del usuario. Incluye gestión de productos, navegación intuitiva y funcionalidad completa de compra.',
+    description: 'E-commerce, with a minimalist and attractive design, focused on the user experience. Includes product management, intuitive navigation and full purchasing functionality.',
     tecnologies: [
       { tecnologie: <SiReact /> },
       { tecnologie: <SiRedux /> },
       { tecnologie: <SiTailwindcss /> },
       { tecnologie: <SiReactrouter /> },
     ],
-    github: 'https://github.com/Chencho34/disney-plus-clone-app',
+    github: 'https://github.com/Chencho34/shopping-cart',
     demo: 'https://cart-shopping-app.netlify.app/'
   },
   { 
@@ -61,7 +61,7 @@ const projects = [
       { tecnologie: <FaCss3 /> },
     ],
     github: 'https://github.com/Chencho34/ktm-web-page',
-    demo: ''
+    demo: '#'
   },
   {
     id: 4,
@@ -74,7 +74,7 @@ const projects = [
       { tecnologie: <SiReactrouter /> },
     ],
     github: 'https://github.com/Chencho34/pokedex-with-poke-api',
-    demo: ''
+    demo: '#'
   },
   {
     id: 5,
@@ -86,7 +86,7 @@ const projects = [
       {tecnologie: <FaCss3 />}
     ],
     github: 'https://github.com/Chencho34/tic-tac-toe',
-    demo: ''
+    demo: '#'
   },
   {
     id: 6,
@@ -99,7 +99,7 @@ const projects = [
       { tecnologie: <SiStyledcomponents /> },
     ],
     github: 'https://github.com/Chencho34/tesla-clon',
-    demo: ''
+    demo: '#'
   },
   {
     id: 7,
@@ -112,7 +112,7 @@ const projects = [
       { tecnologie: <FaCss3 /> },
     ],
     github: 'https://github.com/Chencho34/login-form-firebase',
-    demo: ''
+    demo: '#'
   },
   {
     id: 8,
@@ -128,7 +128,7 @@ const projects = [
       { tecnologie: <SiMui /> },
     ],
     github: 'https://github.com/Chencho34/todo-app-pern-stack',
-    demo: ''
+    demo: '#'
   },
   {
     id: 9,
@@ -140,7 +140,7 @@ const projects = [
       { tecnologie: <SiCss3 /> },
     ],
     github: 'https://github.com/Chencho34/mechanical-website',
-    demo: ''
+    demo: '#'
   },
   {
     id: 10,
@@ -153,7 +153,7 @@ const projects = [
       { tecnologie: <SiJavascript /> },
     ],
     github: 'https://github.com/Chencho34/interactive-card-form',
-    demo: ''
+    demo: '#'
   },
 ]
 

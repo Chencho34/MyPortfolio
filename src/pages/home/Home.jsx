@@ -13,7 +13,7 @@ export default function Home() {
               Hello <br /> im <span className='text-secondary'>Armando</span>
             </h1>
             <h2 className='text-3xl text-secondary font-semibold'>Front-End Web Developer</h2>
-            <p className='text-lg text-primary font-medium max-w-[700px]'>
+            <p className='text-base text-primary font-medium max-w-[700px]'>
             ¡Hola! Soy Armando, un desarrollo web autodidacta. Mi fascinación por la creación de sitios web comenzó como un hobby y ha evolucionado en una dedicación constante.
             Dispuesto a explorar continuamente nuevas tecnologías para mejorar mis habilidades.
             </p>
